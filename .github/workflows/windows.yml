@@ -1,5 +1,9 @@
 name: windows
-on: []
+on: 
+  workflow_dispatch:
+defaults:
+  run:
+    shell: bash
 
 jobs:
   term:
